@@ -1,0 +1,5 @@
+<expr> ::= <expr> <expr> <op> | <var> | <const>
+<op> ::= + | - | * | / | ^
+<var> ::= y1 | y2 | y3 | y4 | y5
+<const> ::= <const> <const> <op> | <num>
+<num> ::= -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5
